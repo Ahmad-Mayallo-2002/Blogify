@@ -89,7 +89,7 @@ export default function Search() {
               errorText={errors.search?.message}
             >
               <Input
-                placeholder="Search Post..."
+                placeholder="Search By Category"
                 className="px-4 border outline-0"
                 {...register("search", { required: "Search is Required" })}
               />
