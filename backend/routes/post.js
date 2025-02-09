@@ -38,7 +38,7 @@ router.post(
         console.log(fileNameArray);
 
         writeFileSync(
-          resolve(`../../Blogify/frontend/public/posts_images/${fileName}`),
+          resolve(`../../Blogify-master/frontend/public/posts_images/${fileName}`),
           req.file.buffer
         );
       }
