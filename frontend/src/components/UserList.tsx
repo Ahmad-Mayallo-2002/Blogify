@@ -88,7 +88,7 @@ export default function UserList() {
           outline={0}
           onClick={() => cookies.remove("userData")}
         >
-          <Link href="/" className="block w-full outline-0">
+          <Link href="/Login" className="block w-full outline-0">
             Logout
           </Link>
         </MenuItem>
